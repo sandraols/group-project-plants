@@ -50,6 +50,27 @@ h1, h2 {
     width: 260px;
 }
 
+#myHeader3 {
+    border-radius: 25px;
+    background-color: lightseagreen;
+    padding-left: 10px;
+    width: 400px;
+}
+
+#myHeader4 {
+    border-radius: 25px;
+    background-color: lightseagreen;
+    padding-left: 10px;
+    width: 400px; 
+}
+
+#myHeader5 {
+    border-radius: 25px;
+    background-color: lightseagreen;
+    padding-left: 10px;
+    width: 400px;
+}
+
 * {
     box-sizing: border-box;
   }
