@@ -33,7 +33,7 @@ body {
 }
 
 h1, h2 {
-    color: darkgreen;
+    color: black;
 }
 
 #myHeader {
@@ -108,7 +108,7 @@ img {
   }
 
   .container .btn:hover {
-    background-color: lightgreen;
+    background-color: black;
     color: white;
   }
 
