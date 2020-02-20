@@ -7,6 +7,26 @@ h1, h2 {
     color: darkgreen;
 }
 
+* {
+    box-sizing: border-box;
+  }
+
+.class-name-1 {
+    display: inline;
+    float:left;
+    }
+
+.class-name-2 {
+        display: inline;
+        float: right }
+
+
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }  
+
 .container {
     position: relative;
     width: 100%;
