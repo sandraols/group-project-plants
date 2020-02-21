@@ -22,11 +22,12 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     margin-bottom: 50px;
 }
 /* ------- NAV ------- */
+
 .nav-bar-list {
     display: flex;
 }
@@ -39,6 +40,8 @@ ul {
 .nav-bar-item:hover {
     color: rgb(85, 197, 160);
 }
+
+/* -------CONTENT------- */
 h1, h2 {
     color: darkgreen;
     line-height: 1.1;
@@ -48,12 +51,14 @@ h1, h2 {
     border: 2px solid darkolivegreen;
     padding: 50px;
     margin: 20px;
+    text-align: center;
   }
   .column-left {
       width: 50%;
       position: relative;
       float: left;
       padding: 15px;
+      text-align: left;
   }
   .column-right {
       border-left: 2px solid darkolivegreen;
@@ -61,13 +66,20 @@ h1, h2 {
       float: right;
       padding: 15px;
       padding-right: 120px;
+      text-align: left;
   }
   .column-bottom {
       padding: 15px;
-      justify-content: center;
+     width: auto;
       border-bottom: 2px solid darkolivegreen;
       border-top: 2px solid darkolivegreen;
       margin-top: 300px;
+      text-align: center;
+  }
+
+  iframe {
+      padding 15px;
+      width: 100%;
   }
 /* ---------------------------------------------*/
 /* FOOTER */
