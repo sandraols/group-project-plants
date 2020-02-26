@@ -12,6 +12,7 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 10px;
+    background-color: black;
 }
 
 .div2 {
@@ -24,9 +25,10 @@ body {
     padding-bottom: 10px; 
 }
 
-#radius1 {
-    border-radius: 25px;
+.radius1 {
     padding-left: 20px;
+    border-radius: 25px;
+    background-color:antiquewhite
 }
 
 #radius2 {
