@@ -1,8 +1,158 @@
-body {
-    background-color: lightgreen; 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h1 {
-    color: green; 
-    font-size: 50px; 
+.backgroundColor {
+    background-color: rgb(255, 239, 220);
+    font-family: sans-serif;
+}
+
+a, ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.header {
+    height: 100px;
+    background: url("https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=582&q=80");
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    margin-bottom: 50px;
+}
+
+.nav-bar-list {
+    display: flex;
+}
+.nav-bar-item {
+    color: rgb(255, 239, 220);
+    padding: 20px;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.nav-bar-item:hover {
+    color: rgb(85, 197, 160);
+}
+
+.anchorfix {
+    padding-top: 110px;
+    margin-top: -110px;
+    display: inline-block; 
+  }
+
+.fontCenter {
+    font-size: 18px; 
+    text-align: center;
+}
+
+.marginTop {
+    margin-top: 5px; 
+}
+
+.marginTop30 {
+    margin-top: 30px; 
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+.containerExpert {
+    display: flex;
+}
+
+input {
+    height: 30px;
+    width: 400px;
+    margin: 5px; 
+}
+
+.col {
+    margin-right: 50px;
+}
+
+.cactus {
+    height: 250px;
+    width: 250px; 
+    border-radius: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 10px; 
+    padding: 10px 0; 
+}
+
+.detective {
+    height: 150px;
+    width: 150px; 
+}
+
+.margin10 {
+    margin-bottom: 10px;
+}
+
+.headerOne {
+    text-align: center; 
+    font-size: 40px; 
+    color: rgb(85, 197, 160); 
+    margin-top: 150px; 
+}
+
+.headerGreen {
+        color:rgb(85, 197, 160); 
+        margin-bottom: 30px; 
+    }
+
+.paragraphCenter {
+    margin: 80px;
+}
+
+.textCenter {
+    margin: 80px; 
+}
+
+.headingFour {
+    text-align: center;
+}
+
+.colorGreen {
+    border: 2px solid rgb(85, 197, 160);
+}
+
+.footer {
+    height: 40vh;
+    background-color: rgb(85, 197, 160);
+    border-top: 4px solid black;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+.footer-object {
+    margin: 20px 50px;
+}
+.footer-title {
+    font-size: 150%;
+    color: rgb(255, 239, 220);
+    margin-bottom: 10px;
+}
+.footer-paragraph {
+    line-height: 1.5;
+}
+.socials-link {
+    color: black;
+}
+
+.hover-green:hover {
+    color: rgb(85, 197, 160); 
+}
+.socials-link:hover {
+    color: rgb(255, 239, 220);
 }
